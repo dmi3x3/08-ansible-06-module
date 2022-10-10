@@ -1,0 +1,4 @@
+---
+# defaults file for /tmp/myroles/file_creator
+creator_path: '/tmp/ansi_test1.txt'
+creator_content: 'Hello world'

@@ -1,0 +1,9 @@
+---
+- name: Check module
+  hosts: localhost
+  tasks:
+    - name: Create file with content
+      my_own_module:
+        path: '/tmp/ansi_test1.txt'
+        content: "Hello world"
+
